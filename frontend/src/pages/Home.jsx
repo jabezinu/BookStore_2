@@ -80,7 +80,7 @@ const Home = () => {
                                 </div>
                                 <div className="col-span-3 flex items-center justify-center">
                                     <div className="w-2 h-2 bg-yellow-400 rounded-full mr-3"></div>
-                                    <span className="text-yellow-300 uppercase tracking-wider text-sm">Actions</span>
+                                    <span className="text-yellow-300 uppercase tracking-wider text-sm">Action</span>
                                 </div>
                             </div>
                         </div>
