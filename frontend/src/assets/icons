@@ -1,0 +1,26 @@
+<!--
+ info
+import { FaBackspace, FaInfoCircle } from "react-icons/fa";
+<FaInfoCircle />
+
+update
+import { GrUpdate } from "react-icons/gr";
+<GrUpdate />
+
+delete
+import { MdDelete } from "react-icons/md";
+<MdDelete />
+
+loading
+import { TbFidgetSpinner } from "react-icons/tb";
+<TbFidgetSpinner /> 
+
+previous page
+import { IoMdArrowRoundBack } from "react-icons/io";
+<IoMdArrowRoundBack />
+
+pluse icon
+import { FaPlus } from "react-icons/fa";
+<FaPlus />
+
+-->
