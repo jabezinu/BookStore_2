@@ -6,6 +6,14 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
+
+app.use(cors({
+  origin: 'https://book-store-2.vercel.app',
+  methods: ['GET', 'POST', 'OPTIONS'],
+  allowedHeaders: ['Content-Type']
+}));
+app.options('*', cors()); // Handle preflight for all routes
+
 const port = process.env.PORT || 5000;
 app.use(express.json())
 
