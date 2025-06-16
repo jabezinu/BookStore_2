@@ -86,7 +86,7 @@ const Show = () => {
   
   useEffect(() => {
     setLoading(true)
-    axios.get(`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/${id}`)
+    axios.get(`https://bookstore-2-backend-90s2.onrender.com/${id}`)
     .then((res) => {
       setBook(res.data)
       setLoading(false)

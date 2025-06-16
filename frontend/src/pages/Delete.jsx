@@ -60,7 +60,7 @@ const Delete = () => {
     const handleDeleteButton = () => {
         setLoading(true);
         axios
-            .delete(`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/books/${id}`)
+            .delete(`https://bookstore-2-backend-90s2.onrender.com/books/${id}`)
             .then(() => {
                 setLoading(false);
                 navigate('/');

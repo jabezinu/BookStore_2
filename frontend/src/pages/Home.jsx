@@ -12,7 +12,7 @@ const Home = () => {
 
     useEffect(() => {
         setLoading(true);
-        axios.get(`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/books`)
+        axios.get(`https://bookstore-2-backend-90s2.onrender.com/books`)
             .then((res) => {
                 setBooks(res.data);
                 setLoading(false);

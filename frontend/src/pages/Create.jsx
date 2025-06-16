@@ -74,7 +74,7 @@ const Create = () => {
     const handleCreateButton = () => {
         setLoading(true);
         axios
-            .post(`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/books`, { title, author, publishedYear })
+            .post(`https://bookstore-2-backend-90s2.onrender.com/books`, { title, author, publishedYear })
             .then(() => {
                 setLoading(false);
                 navigate('/');
